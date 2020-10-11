@@ -1,0 +1,237 @@
+.top{
+    background-image:url("download.png") ;
+}
+body{
+    margin: 1 auto  ;
+    background-color: gainsboro;
+}
+.container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    float: left;
+    padding:15px;
+}
+.search{
+    float: right;
+    padding:15px;
+}
+.clearFix{
+    clear:both;
+}
+.Main-menu{
+    background-color: teal;
+}
+.Main-menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.Main-menu > ul >li{
+    display: inline-block;
+}
+.Main-menu > ul >li >a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+.Main-menu > ul >li >a:hover{
+    background-color: orange;
+}
+/*drop*/
+.drop{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+.drop > li > a:hover{
+    background-color: orange;
+}
+.Main-menu > ul >li:hover>.drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 667px;
+    overflow: hidden;
+
+}
+.banner > img{
+    width: 100%;
+    height: auto;
+}
+/*content holder*/
+.content-holder{
+    background-color: royalblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+    font-size: small;
+}
+.sidebar{
+    float: left;
+    padding: 25px;
+}
+.sidebar h3{
+    font-family: sans-serif;
+    color: white;
+}
+.sidebar ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.sidebar ul > li > a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+    text-decoration: none;
+}
+.sidebar ul > li > a:hover{
+    background-color: orange;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    width: 950px;
+    height: auto;
+    padding: 25px;
+}
+.footer-box{
+    width: 475px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+}
+.footer-box ul{
+    list-style-type: none ;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-box ul > li > a{
+    width: 100px;
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box ul > li > a:hover{
+    background-color: orange;
+}
+
+.footer-box address > p{
+    display: block;
+    width: 330px;
+    font-size: small;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.footer-box address > p >a{
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box address > p >a:hover{
+    background-color: orange;
+}
+.copy{
+    font-family: sans-serif;
+    padding: 25px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+.copy p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*about page*/
+.content main > img{
+    max-width: 500px;
+    height: auto;
+}
+
+/*products*/
+.product{
+    border: 3px solid black;
+    padding: 1px ;
+    margin: 5px;
+}
+.product img {
+    width: 600px;
+    height: auto;
+}
+
+.product-caption del{
+    font-weight: bold;
+    color: red;
+}
+.product-caption ins{
+    font-weight: bold;
+    color: green;
+}
+.product-caption a{
+    display: block;
+    background-color: teal;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: small;
+}
+.product-caption a:hover{
+    background-color: orange;
+}
+
+
+/*contact*/
+.content main > p{
+    font-size: 1em;
+    font-family: sans-serif;
+    text-decoration-style: none;
+}
+
+.content main > p >a{
+    text-decoration-style: none;
+    color: black;
+}
+.content main > p >a:hover{
+    background-color: orange;
+}
